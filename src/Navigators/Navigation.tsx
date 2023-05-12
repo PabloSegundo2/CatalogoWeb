@@ -6,7 +6,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 //-
 import HomeScreen from '../Screens/HomeScreen';
 import prueba from '../Screens/prueba'
-
+import Home from '../Screens/Home';
 
 
 
@@ -19,11 +19,7 @@ export default function App() {
         <Tab.Screen 
         name="uwu" 
         component={HomeScreen}
-        options={{
-          headerStyle: {
-            backgroundColor: '#d3afd4',
-          },
-        
+        options={{ headerStyle: { backgroundColor: '#d3afd4', },
           tabBarLabel: 'Inico ' ,
           headerShown: true,
           tabBarIcon: ({color , size}) => (
@@ -32,15 +28,12 @@ export default function App() {
         }}
         
          />
-
         <Tab.Screen 
         name="Compras" 
-       
         component={prueba}
         options={{
           tabBarLabel: 'Compras ' ,
-        
-          headerShown: true,
+          headerShown: false,
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons name="basket-outline" color={'black'} size={size} />
           ),

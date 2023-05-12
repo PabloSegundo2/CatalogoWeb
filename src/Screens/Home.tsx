@@ -5,11 +5,11 @@ import { Button } from 'react-bootstrap';
 import prueba from './prueba';
 
 
-const HomeScreen = ()  => {
+const Home = ()  => {
   return (
     <View  >
       <View style={[styles.boxhome]}> 
-      <Text style={styles.screenTitle}> inicio  </Text>
+      <Text style={styles.screenTitle}> uuuuuuuuuu  </Text>
          
        
 
@@ -34,11 +34,6 @@ const HomeScreen = ()  => {
   };
    
    
-
-
-
-
-
  const styles = StyleSheet.create({
 
    screenTitle: {
@@ -78,4 +73,4 @@ const HomeScreen = ()  => {
 
  }
  )
- export default HomeScreen;
+ export default Home;
