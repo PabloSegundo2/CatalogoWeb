@@ -16,7 +16,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
     />
 
     <Text style={styles.screenTitle}>Colecciones de 3 piezas 
-    
+      
     </Text>
     <Text style={styles.screenTitle}>Colecciones de 4 piezas </Text>
     <Text style={styles.screenTitle}>Colecciones de 6 piezas </Text>

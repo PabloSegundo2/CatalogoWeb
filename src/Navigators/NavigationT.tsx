@@ -119,7 +119,7 @@ type TabBarComponentProps = {
   }
   
   const TabBarComponent = ({ active, options, onLayout, onPress }: TabBarComponentProps) => {
-    // handle lottie animation -----------------------------------------
+   
     const ref = useRef(null)
   
     useEffect(() => {
@@ -129,8 +129,7 @@ type TabBarComponentProps = {
       }
     }, [active])
   
-    // animations ------------------------------------------------------
-  
+   
     const animatedComponentCircleStyles = useAnimatedStyle(() => {
       return {
         transform: [
